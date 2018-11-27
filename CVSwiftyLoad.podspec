@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CVSwiftyLoad"    #存储库名称
-  s.version      = "1.0.0"      #版本号，与tag值一致
+  s.version      = "1.0.1"      #版本号，与tag值一致
   s.summary      = "CVSwiftyLoad"  #简介
   s.swift_version= "4.2"
   s.description  = "本类将OC中的load()方法，拷贝到了swift中，使得在swift的扩展类中同样可以在app启动的时候主动调用且仅会调用一次的方法：swiftLoad()"  #描述
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }   #开源协议
   s.author       = { "weixhe" => "workerwei@163.com" }  #作者
   s.platform     = :ios, "8.0"                  #支持的平台和版本号
-  s.source       = { :git => "https://github.com/weixhe/CVSwiftyLoad.git", :tag => "1.0.0" }         #存储库的git地址，以及tag值
+  s.source       = { :git => "https://github.com/weixhe/CVSwiftyLoad.git", :tag => "1.0.1" }         #存储库的git地址，以及tag值
   s.source_files =  "CVSwiftyLoad/Classes/*.{h, m}" #需要托管的源代码路径
   s.requires_arc = true #是否支持ARC
 
